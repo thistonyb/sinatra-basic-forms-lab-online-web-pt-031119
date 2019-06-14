@@ -58,7 +58,7 @@ describe App do
     end
 
     it "recieves a request from /new at /puppy" do
-      expect(page.current_path).to eq("/puppy")
+      expect(page.current_path).to eq("/create_puppy")
     end
 
     it "displays the puppy information dynamically" do
