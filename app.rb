@@ -16,9 +16,4 @@ class App < Sinatra::Base
     @breed = params[:breed]
     @age = params[:age]
   end
-
-
-
-
-
 end
